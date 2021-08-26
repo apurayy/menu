@@ -1,0 +1,94 @@
+body{
+	font-family:sans-serif;
+	background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/banner.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+}
+.logo img{
+	width:150px;
+	margin-top:20px;
+}
+.image-text{
+	color:#fff;
+	font-size:50px;
+	margin-bottom:30px;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.button{
+	border-radius:20px;
+	border:none;
+	padding:10px 30px;
+	font-size:15px;
+	margin:5px;
+	color:#fff;
+	cursor:pointer;
+}
+.button-1{
+	background:transparent;
+	border:1px solid #fff;
+}
+.button-2{
+	background-image:linear-gradient(to right, #0b1acc, #ff07c5);
+}
+.button:focus{
+	outline:none;
+}
+
+/*--slidenav area---*/
+.slidenav{
+	width:0;
+	height:100%;
+	position:fixed;
+	z-index:1;
+	top:0;
+	right :0;
+	background:#2A18CB;
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:60px;
+	margin-left:0;
+}
+.slidenav a{
+	padding:8px 8px 8px 32px;
+	font-size:18px;
+	color:#fff;
+	display:block;
+	transition:0.3s;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.slidenav a:hover{
+	color:#E609C6;
+}
+.icon{
+	float:right;
+	font-size:36px;
+	margin:15px 30px;
+	color:#fff;
+	cursor:pointer;
+}
+.slidenav .closeicon{
+	position:absolute;
+	top:0;
+	right:25px;
+	font-size:40px;
+	margin:4px;
+	text-decoration:none;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
